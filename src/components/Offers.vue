@@ -1,5 +1,5 @@
 <template>
-    <v-carousel hide-controls height="30vh" touch>
+    <v-carousel hide-controls height="30vh">
         <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"></v-carousel-item>
     </v-carousel>
 </template>
